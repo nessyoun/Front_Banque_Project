@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/photo1" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/shape3"
+            android:drawableRight="@drawable/person"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="@string/id"
+            android:inputType="textShortMessage"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/shape3"
+            android:drawableRight="@drawable/key"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="@string/md"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textSize="15sp"
+            android:paddingRight="5dp" />
+
+        <Button
+            android:id="@+id/conn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape5"
+            android:text="Connexion" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:text="@string/mdOublie" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="right"
+                android:text="@string/idOublie"
+                android:layout_marginBottom="70dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/fb" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/insta" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:src="@drawable/twitter" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

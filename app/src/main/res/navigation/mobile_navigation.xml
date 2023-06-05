@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.projet_android.fragmentMenu.fragment_principal"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_principal" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.projet_android.fragmentMenu.fragment_langue"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_langue" />
+
+    <fragment
+        android:id="@+id/nav1"
+        android:name="com.example.projet_android.fragmentMenu.fragment_assistance"
+        android:label="Assistance"
+        tools:layout="@layout/fragment_assistance" />
+    <fragment
+        android:id="@+id/nav2"
+        android:name="com.example.projet_android.fragmentMenu.fragment_localisation"
+        android:label="Localisation"
+        tools:layout="@layout/fragment_localisation" />
+
+    <fragment
+        android:id="@+id/nav3"
+        android:name="com.example.projet_android.fragmentMenu.fragment_consultation"
+        android:label="Votre profil"
+        tools:layout="@layout/fragment_consultation" />
+
+    <fragment
+        android:id="@+id/nav4"
+        android:name="com.example.projet_android.fragmentMenu.fragment_versement"
+        android:label="Versement"
+        tools:layout="@layout/activity_verser" />
+    <fragment
+        android:id="@+id/nav5"
+        android:name="com.example.projet_android.fragmentMenu.fragment_suppression"
+        android:label="Suppression compte"
+        tools:layout="@layout/activity_suppression" />
+    <fragment
+    android:id="@+id/nav6"
+    android:name="com.example.projet_android.fragmentMenu.fragment_creation"
+    android:label="Nouveau compte"
+    tools:layout="@layout/fragment_creation" />
+</navigation>

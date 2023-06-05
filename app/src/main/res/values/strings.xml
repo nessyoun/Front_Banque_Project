@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Projet_android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">LOGIN</string>
+    <string name="menu_home">MY BANK Mobile</string>
+    <string name="menu_gallery">Langue</string>
+    <string name="menu_nav1">Assistance</string>
+    <string name="menu_nav2">Localisation</string>
+    <string name="menu_nav3">Consultation</string>
+    <string name="menu_nav4">Versement</string>
+    <string name="menu_nav5">Suppression </string>
+    <string name="menu_nav6">Nouveau compte</string>
+
+    <string name="id">Identifiant</string>
+    <string name="md">Mot de passe</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="b1">Devenir client</string>
+    <string name="b2">Me connecter</string>
+    <string name="bienvenue">Bienvenue sur MY BANK</string>
+    <string name="mdOublie">Mot de passe oublié</string>
+    <string name="idOublie">Identifiant oublié</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="tabOperateur">
+        <item>Personal</item>
+        <item>Etreprise</item>
+        <item>Investissement</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/accueil_icon"
+                    android:title="@string/menu_home" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/langue_icon"
+                    android:title="@string/menu_gallery" />
+                <item
+                    android:id="@+id/nav1"
+                    android:icon="@drawable/appel_icon"
+                    android:title="@string/menu_nav1" />
+                <item
+                    android:id="@+id/nav2"
+                    android:icon="@drawable/localisation_icon"
+                    android:title="@string/menu_nav2" />
+
+
+            </group>
+
+    <item android:title="FONCTIONNALITES">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav3"
+                    android:icon="@drawable/person_icn"
+                    android:title="@string/menu_nav3" />
+                <item
+                    android:id="@+id/nav4"
+                    android:icon="@drawable/verser_icn"
+                    android:title="@string/menu_nav4" />
+                <item
+                    android:id="@+id/nav5"
+                    android:icon="@drawable/delete_ic"
+                    android:title="@string/menu_nav5" />
+                <item
+                    android:id="@+id/nav6"
+                    android:icon="@drawable/add_icn"
+                    android:title="@string/menu_nav6" />
+
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
